@@ -45,8 +45,9 @@ article{
 	margin-top: 10px;
 	border: 1px solid black;
 	box-sizing: border-box;
-	width: 500px;
 	background-color: yellow;
+	float: left;
+	position: relative;
 }
 img{
 	width: 150px;
