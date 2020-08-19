@@ -41,6 +41,11 @@ ol li:hover{
 	font-size: 20px;
 	color: blur;
 }
+div div a:link,div div a:visited{
+
+      text-decoration: none;
+      color: red;
+}
 article{
 	margin-top: 10px;
 	border: 1px solid black;
@@ -53,7 +58,12 @@ img{
 	width: 150px;
 	height: 150px;
 }
+article div{
+	float: left;
+	position: relative;
+}
 span{
 	float: right;
-	position: relative;
+	width: 500px;
+	margin-left: 10px;
 }
