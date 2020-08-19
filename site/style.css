@@ -1,0 +1,58 @@
+h1{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 15px;
+	background-color: maroon;
+}
+ul{
+	list-style-type: none;
+}
+li a:link,li a:visited{
+	text-decoration: none;
+	color: red;
+	height: 20px;
+	background-color: yellow;
+	margin-bottom: 50px;
+}
+li a:hover{
+	font-size: 20px; 
+}
+h2{
+	color: red;
+	font-size: 30px;
+}
+section p{
+	background-color: lightblue;
+	text-align: left;
+	width: 500px;
+	font-family: inherit;
+}
+img{
+	background-color: white;
+	width: 200px;
+}
+div a:link,div a:visited{
+	text-decoration: none;
+	width:80%;
+	position: relative;
+	float: right; 
+}
+ol li:hover{
+	font-size: 20px;
+	color: blur;
+}
+article{
+	margin-top: 10px;
+	border: 1px solid black;
+	box-sizing: border-box;
+	width: 500px;
+	background-color: yellow;
+}
+img{
+	width: 150px;
+	height: 150px;
+}
+span{
+	float: right;
+	position: relative;
+}
