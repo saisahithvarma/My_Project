@@ -65,3 +65,7 @@ span{
 	width: 500px;
 	margin-left: 10px;
 }
+hr{
+	margin-top: 15px;
+	clear: both;
+}
