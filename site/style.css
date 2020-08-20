@@ -27,7 +27,7 @@ section p{
 	width: 500px;
 	font-family: inherit;
 }
-img{
+section img{
 	background-color: white;
 	width: 200px;
 }
@@ -48,17 +48,15 @@ div div a:link,div div a:visited{
 }
 article{
 	margin-top: 10px;
-	border: 1px solid black;
-	box-sizing: border-box;
-	background-color: yellow;
-	float: left;
-	position: relative;
 }
-img{
+article img{
+	margin-top: 20px;
+	margin-left: 10px;
 	width: 150px;
 	height: 150px;
 }
 article div{
+	background-color: yellow;
 	float: left;
 	position: relative;
 }
