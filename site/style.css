@@ -1,71 +1,44 @@
-h1{
-	text-align: center;
-	font-size: 40px;
-	margin-bottom: 15px;
-	background-color: maroon;
+#navbar-header{
+	background-color: lightgrey;
+	border-radius: 0;
+	border:0;
 }
-ul{
-	list-style-type: none;
+#logo-img{
+	background: url("covid.png") no-repeat;
+	width: 100px;
+	height: 100px;
+	margin : 10px 15px 10px 0;
 }
-li a:link,li a:visited{
-	text-decoration: none;
-	color: red;
-	height: 20px;
-	background-color: yellow;
-	margin-bottom: 50px;
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
 }
-li a:hover{
-	font-size: 20px; 
-}
-h2{
-	color: red;
-	font-size: 30px;
-}
-section p{
-	background-color: lightblue;
-	text-align: left;
-	width: 500px;
-	font-family: inherit;
-}
-section img{
-	background-color: white;
-	width: 200px;
-}
-div a:link,div a:visited{
-	text-decoration: none;
-	width:80%;
-	position: relative;
-	float: right; 
-}
-ol li:hover{
-	font-size: 20px;
-	color: blur;
-}
-div div a:link,div div a:visited{
-
-      text-decoration: none;
-      color: red;
-}
-article{
+.jumbotron{
 	margin-top: 10px;
 }
-article img{
-	margin-top: 20px;
-	margin-left: 10px;
-	width: 150px;
-	height: 150px;
+div img{
+	width: 100%;
+	height: 200px;
 }
-article div{
-	background-color: yellow;
+#Symptom-tile, #Awareness-tile, #Precaution-tile {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 15px;
 	float: left;
 	position: relative;
+	overflow: hidden;
+	border: 1px solid black;
+	background-image: no-repeat;
 }
-span{
-	float: right;
-	width: 500px;
-	margin-left: 10px;
+#Symptom-tile{
+	background-image: url('Addiction-signs-and-symptoms.png');
+	background-position: center;
+
 }
-hr{
-	margin-top: 15px;
-	clear: both;
+#Awareness-tile{
+	background-image: url('Awareness-1.jpg');
+	background-position: center;
+}
+#Precaution-tile{
+	background-image: url('precaution.jpg');
+	background-position: center;
 }

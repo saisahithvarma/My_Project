@@ -1,58 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>sections</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Comaptible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Assignment Solution for module-3</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/css?family=oxygen:400,300,700" rel='stylesheet' type="text/css">
 </head>
 <body>
-<h1>sections</h1> 	
-<section>
-	<ul>
-		<li><a href="#section1">section 1</a></li>
-		<li><a href="#section2">section 2</a></li>
-        <li><a href="#section3">section 3</a></li>
-	</ul>
-</section>
-<section id="section1">
-	<h2>paragraph design:</h2>
-	<p>&quotIn water,directio along the stream is called downstream.And,the direction against the stream is called upstream.The water body which is not moving is called still water &amp which is flowing is called stream.In water,directio along the stream is called downstream.And,the direction against the stream is called upstream.The water body which is not moving is called still water &amp which is flowing is called stream.In water,directio along the stream is called downstream.And,the direction against the stream is called upstream.The water body which is not moving is called still water &amp which is flowing is called stream.In water,directio along the stream is called downstream.And,the direction against the stream is called upstream.The water body which is not moving is called still water &amp which is flowing is called stream.&quot</p>
-</section>
-<section id="section2">
-	<h2>Facebook:</h2>
-	<div>
-		<img src="https://cdn0.iconfinder.com/data/icons/popular-social-media-colored/48/JD-04-512.png" width="150px" height="150px">
-	</div>
-	<div>
-		<a href="https://www.facebook.com/" target="_blank">facebook</a>
-	</div>
-</section>
-<section id="section3">
-	<h2>Layouts:</h2>
-	<ol>
-		<li>A</li>
-		<li>B</li>
-		<li>C</li>
-		<li>D</li>
-		<li>E</li>
-	</ol>
-</section>
-<div>
-	<div>
-	To go top:<a href="#top">Back to Top</a>
-</div>
-</div>
-<article>
-	<div>
-		<img src="https://cdn.vox-cdn.com/thumbor/8tLchaDMIEDNzUD3mYQ7v1ZQL84=/0x0:2012x1341/920x613/filters:focal(0x0:2012x1341):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/47070706/google2.0.0.jpg">
-		<span><h3>About Google:</h3>
-		<p>Google was founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University in California. Together they own about 14 percent of its shares and control 56 percent of the stockholder voting power through supervoting stock. They incorporated Google as a California privately held company on September 4, 1998, in California. Google was then reincorporated in Delaware on October 22, 2002.[13] An initial public offering (IPO) took place on August 19, 2004, and Google moved to its headquarters in Mountain View, California, nicknamed the Googleplex.</p>
-	</span>
-	</div>
-</article>
-<footer>
-	<hr>
-<marquee behavior="alternate">saisahithvarma&copycopyrights</marquee>
-</footer>
+<header>
+    <nav id="navbar-header" class="nav navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+            <a href="one.html" class="pull-left">
+              <div id="logo-img" alt="Logo image"></div>
+            </a>
+            <div class="navbar-brand">
+              <a href="one.html"><h1>COVID-19</h1></a>
+          </div>
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                  <span class="sr-only">.</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+              <div id="collapsable-nav" class="nav navbar-nav navbar-right">
+                <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+                  <li>
+                    <a href="#Symptom-tile"><div class="text-center">Symptoms</div></a>
+                  </li>
+                  <li>
+                    <a href="#Awareness-tile"><div class="text-center">Awarness</div></a>
+                  </li>
+                  <li>
+                    <a href="#Precaution-tile"><div class="text-center">Precautions</div></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="jumbotron">
+        <img src="corona.webp" class="img-responsive visible-xs visible-md visible-lg visible-sm">
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="Symptom-tile"></div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="Awareness-tile"></div>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="Precaution-tile"></div>
+      </div>
+    </div>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
