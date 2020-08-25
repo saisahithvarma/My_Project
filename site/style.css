@@ -42,8 +42,8 @@ div img{
 	background-image: url('precaution.jpg');
 	background-position: center;
 }
-#fever{
-	margin-left: 350px;
+#cough{
+	margin-right: 400px;
 }
 #symptoms-list{
 	font-weight: bolder;
@@ -67,14 +67,15 @@ p{
 }
 @media (max-width:780px){
 	#tiredness{
-		text-align: center;
+		float:left;
+		position: relative;
 	}
 	#fever{
-		margin: center;
+		float:left;
+		position: relative;
 	}
 	#cough{
 		float:left;
 		position: relative;
-		margin-right: 400px;
 	}
 }
