@@ -43,7 +43,7 @@ div img{
 	background-position: center;
 }
 #cough{
-	margin-right: 400px;
+	margin-right: 300px;
 }
 #symptoms-list{
 	font-weight: bolder;
@@ -65,7 +65,7 @@ p{
 #Symptoms-img h1{
 	background-color: skyblue;
 }
-@media (max-width:650px){
+@media (max-width:780px){
 	#tiredness{
 		float:left;
 		position: relative;
