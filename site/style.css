@@ -42,9 +42,6 @@ div img{
 	background-image: url('precaution.jpg');
 	background-position: center;
 }
-#cough{
-	margin-right: 200px;
-}
 #symptoms-list{
 	font-weight: bolder;
 	font-size: 24px;
@@ -65,17 +62,19 @@ p{
 #Symptoms-img h1{
 	background-color: skyblue;
 }
-@media (max-width:780px){
-	#tiredness{
-		float:left;
-		position: relative;
-	}
-	#fever{
-		float:left;
-		position: relative;
-	}
-	#cough{
-		float:left;
-		position: relative;
-	}
+#Awareness h1{
+	text-decoration: underline;
+}
+#Awareness-img{
+	width: 400px;
+	height: 400px;
+}
+#Awareness-img img{
+	margin-bottom: 30px;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+#Awareness-list{
+	float: right;
+	position: relative;
 }
