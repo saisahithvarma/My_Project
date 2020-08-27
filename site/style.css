@@ -78,3 +78,17 @@ p{
 	float: left;
 	position: relative;
 }
+#steps ul{
+	font-weight: bold;
+	margin-top: 25px;
+	background-color: seashell;
+}
+#quote h2{
+	width: 90%;
+	float: right;
+	position: relative;
+	text-decoration: none;
+}
+#Precaution h1{
+  text-decoration: underline;
+}
