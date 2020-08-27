@@ -12,8 +12,9 @@
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-.jumbotron{
+.main-image{
 	margin-top: 10px;
+	margin-bottom: 30px;
 }
 div img{
 	width: 100%;
